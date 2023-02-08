@@ -1,0 +1,139 @@
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #eeeeee;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+nav.headerlinks {
+  display: flex;
+  justify-content: center;
+  background-color: #cdcdcd;
+}
+
+div.selected {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+  padding: 10px;
+  color: rgb(79, 146, 188);
+}
+
+div.linked {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+  padding: 10px;
+  color: #636362;
+  text-decoration: none;
+}
+
+div.linked :link {
+  text-decoration: none;
+}
+div.linked :visited {
+  text-decoration: none;
+  color: #4c4c47;
+}
+div.linked :hover {
+  text-decoration: none;
+  color: rgb(64, 167, 231);
+}
+div.linked :active {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(162, 219, 255);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 80%;
+}
+
+section.mainbody {
+  display: flex;
+  justify-content: center;
+}
+
+div.maininfo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+  padding: 30px;
+  text-align: center;
+  flex: 0 1 30%;
+  border-right: 1px solid #ccc;
+}
+
+div.otherinfo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+  padding: 30px;
+  flex: 1 0 0;
+}
+
+header.title {
+  color: rgb(91, 157, 198);
+}
+
+p.colouredtext {
+  color: grey;
+}
+
+p.email {
+  font-size: small;
+  color: rgb(162, 219, 255);
+}
+
+table {
+  width: 100%;
+}
+
+p.link {
+  color: grey;
+}
+p.link :link {
+  text-decoration: none;
+}
+p.link :visited {
+  text-decoration: none;
+  color: rgb(64, 167, 231);
+}
+p.link :hover {
+  text-decoration: none;
+  color: #4c4c47;
+}
+p.link :active {
+  text-decoration: none;
+}
+
+li.link :link {
+  text-decoration: none;
+}
+li.link :visited {
+  text-decoration: none;
+  color: rgb(64, 167, 231);
+}
+li.link :hover {
+  text-decoration: none;
+  color: #4c4c47;
+}
+li.link :active {
+  text-decoration: none;
+}
+
+p.copyright {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: small;
+  color: #80807a;
+}
